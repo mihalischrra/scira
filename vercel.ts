@@ -5,7 +5,7 @@ export const config: VercelConfig = {
   crons: [
     {
       path: '/api/clean_images',
-      schedule: '00* * * *'
+      schedule: '00 * * * *'
     },
   ],
 };
